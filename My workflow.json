@@ -1,0 +1,44 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -1008,
+        32
+      ],
+      "id": "262fb4ff-2e00-47d5-b1fb-5a7ae7fdd56e",
+      "name": "When clicking ‘Execute workflow’",
+      "retryOnFail": false,
+      "executeOnce": false
+    },
+    {
+      "parameters": {
+        "content": "sVE FOR LATER\n"
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -800,
+        0
+      ],
+      "id": "ecd949ce-a594-4f5a-9bcb-f53a6837194b",
+      "name": "Sticky Note1"
+    }
+  ],
+  "pinData": {},
+  "connections": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "53a8e087-7439-4be4-a288-6ffe163c1504",
+  "meta": {
+    "instanceId": "c1e4db12d55b07b67a1e1d149245b78925e795fb572cd74ae22064bebff0f0af"
+  },
+  "id": "37pJddjQ6w3W6EB4DAhH2",
+  "tags": []
+}
